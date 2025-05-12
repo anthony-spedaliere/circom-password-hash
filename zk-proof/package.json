@@ -1,0 +1,22 @@
+{
+  "name": "password-hash",
+  "version": "1.0.0",
+  "description": "Prove knowledge of a password without revealing the password itself.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony-spedaliere/circom-password-hash.git"
+  },
+  "author": "anthony spedaliere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthony-spedaliere/circom-password-hash/issues"
+  },
+  "homepage": "https://github.com/anthony-spedaliere/circom-password-hash#readme",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "dotenv": "^16.5.0"
+  }
+}
