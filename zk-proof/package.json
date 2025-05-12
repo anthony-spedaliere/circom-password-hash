@@ -2,8 +2,10 @@
   "name": "password-hash",
   "version": "1.0.0",
   "description": "Prove knowledge of a password without revealing the password itself.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-input": "node scripts/generateInput.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   "homepage": "https://github.com/anthony-spedaliere/circom-password-hash#readme",
   "dependencies": {
     "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
     "dotenv": "^16.5.0"
   }
 }
